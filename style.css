@@ -43,14 +43,108 @@ body{
     margin: 30px;
     transition-property: transform;
     transition-duration: 900ms;
-    transition-delay:0.1s;
-   
-   
-}
-#img:hover{
-    transform: translateX(10px) scale(1.2) translateY(70px);
+    transition: delay 1s;
+    height:400px;
     width:400px;
+    animation-name: big;
+    
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+   
 }
+@keyframes big {
+
+    from{ transform: scale(1.0);}
+    to { transform: scale(1.2);}
+}
+@keyframes small {
+
+    from{ transform: scale(1.2);}
+    to { transform: scale(1.0);}
+}
+
+
+.n {
+    color: rgb(242, 241, 241) ;
+
+    background-color: rgba(0, 0, 0, 0.586);
+    padding: 20px;
+   
+}
+.btn{
+    background:rgba(0, 0, 0, 0.637);
+    border: none;
+    color: aliceblue;
+    padding: 50px;
+    font-size: medium;
+   
+}
+.btn:hover{
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    color: aliceblue;
+    font-size:20px;
+   
+}
+.btn1{
+    background:rgb(0, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    
+   
+}
+.n1 {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.nv2{
+    background-color: rgba(155, 169, 162, 0.637);
+    padding: 20px;
+    margin: auto;
+    border-radius: 800px;
+    min-height: auto;
+    max-width:500px;
+}
+.box{
+
+    width: 40%;
+    margin: auto;
+
+}
+.box #m ,  #m1 ,  #m2, #m4{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#hh{
+    padding: 30px;
+  position: relative;
+    height: auto;
+    border-bottom: 20px black;
+    max-width: 100%;
+    margin:0px 00px;
+    text-align: center;
+}
+.f1{
+    display: block;
+    margin: auto;
+}
+#click{
+    border-radius: 30px;
+    padding: 10px;
+    background:white;
+    margin: auto;
+    text-decoration: none;
+    border: 1px solid;
+    width: 110%;
+    margin-top: 10px;
+}
+
 
 @media screen and (width < 1100px){
     .bd{
@@ -109,6 +203,8 @@ body{
         width: 40%;
         margin:0px;
         flex: 50%;
+        padding: 0%;
+        padding-left: 5px;
     
 
     }
@@ -121,61 +217,37 @@ body{
         display: block;
         flex: 50%;
     }
-}
-
-.n{
-    color: rgb(242, 241, 241) ;
-
-    background-color: rgba(0, 0, 0, 0.586);
-    padding: 20px;
+    #img{
+       
+    }
+   .btn{
+    padding: 5px;
+    font-size: 12px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+   }
     
+   #img{
+   
+    transition-property: transform;
+    transition-duration: 900ms;
+    transition: delay 1s;
+    height:250px;
+    width:250px;
+    margin: revert;
+    animation-name: big;
+    
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+   
 }
-.n1{
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-}
+@keyframes big {
 
+    from{ transform: scale(1.0);}
+    to { transform: scale(1.1);}
+}
 .nv2{
-    background-color: rgba(155, 169, 162, 0.637);
-    padding: 20px;
-    margin: auto;
-    border-radius: 800px;
-    min-height: auto;
-    max-width:500px;
+    width: 300px;
 }
-.box{
-
-    width: 40%;
-    margin: auto;
-
-}
-.box #m ,  #m1 ,  #m2, #m4{
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border-radius: 20px;
-    margin: 10px;
-}
-#hh{
-    padding: 30px;
-  position: relative;
-    height: auto;
-    border-bottom: 20px black;
-    max-width: 100%;
-    margin:0px 00px;
-    text-align: center;
-}
-.f1{
-    display: block;
-    margin: auto;
-}
-#click{
-    border-radius: 30px;
-    padding: 10px;
-    background:white;
-    margin: auto;
-    text-decoration: none;
-    border: 1px solid;
-    width: 110%;
-    margin-top: 10px;
 }

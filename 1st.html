@@ -11,25 +11,25 @@
     <div class="container">
         <nav class="nv">
             
-            <div class="n"><a>MIP CALCULATOR</a></div>
-            <div class="n"><a>FD CALCULATOR</a></div>
-            <div class="n"><a>RD CALCULATOR</a></div>
-            <div class="n"><a>DD CALCULATOR</a></div>
-            <div class="n"><a>LOAN CALCULATOR</a></div>
-            <div class="n1"><a>ABOUT</a></div>
+            <button class="btn" onclick="myFunction()">MIP CALCULATOR</button>
+            <button class="btn" onclick="myFunction()">FD CALCULATOR</button>
+            <button class="btn" onclick="myFunction()">RD CALCULATOR</button>
+            <button class="btn" onclick="myFunction()">DD CALCULATOR</button>
+            <button class="btn" onclick="myFunction()">LOAN CALCULATOR</button>
+            <button class="btn1" >ABOUT US</button>
         </nav>
     
         <div class="nv2">
-            <img src="claculator.png" id="img">
+            <img src="claculator.png" id="img" >
             <h1 id="hh">LOAN CALCULATOR</h1>
-            <form class="box">
-                <label for name="m" >Amount(Rs.)
+            <form class="box" id="bin">
+                <label for name="m" >AMOUNT(Rs.)</label>
                 <input type="text" id="m" name="m" placeholder="in Rs:-">
-                <label for name="m1" >Duration
+                <label for name="m1" >DURATION</label>
                 <input type="text" id="m1" name="m1" placeholder="in months">
-                <label for name="m2" >Interest Rate
+                <label for name="m2" >INTEREST-RATE</label>
                 <input type="text" id="m2" name="m2" placeholder="--type--">
-                <label for name="m2" >Mode of Payment
+                <label for name="m2" >MODE-OF-PAY
                 <select id="m4">
                     <option value="Monthly" id="opt1">Monthly</option>
                     <option value="Quaterly" id="opt2">Quaterly</option>
@@ -37,11 +37,13 @@
                 </select>
 
             
-                <button onclick="myFunction()" id="click">CALCULATE</button>  
+                <button onclick="calculate()" id="click">CALCULATE</button>  
             </form>
             
         </div>
 
     </div>
+
+<script src="show.js"></script>
 </body>
 </html>
