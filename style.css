@@ -38,13 +38,26 @@ body{
     position: relative;
     
 }
-
+#img{
+    align-items: center;
+    margin: 30px;
+    transition-property: transform;
+    transition-duration: 900ms;
+    transition-delay:0.1s;
+   
+   
+}
+#img:hover{
+    transform: translateX(10px) scale(1.2) translateY(70px);
+    width:400px;
+}
 
 @media screen and (width < 1100px){
     .bd{
        
         margin: 0%;
         background-size:cover;
+        background-attachment:fixed ;
     
     }
     
