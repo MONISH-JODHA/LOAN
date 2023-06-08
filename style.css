@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    
+   
+    
+    
+}
+body{
+    background-image:url('project.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: auto;
+}
+.bd{
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    margin: 0px;
+   
+   
+   
+    
+}
+.container{
+    
+    
+   
+}
+.nv{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    margin: 0px 800px;
+    position: relative;
+    
+}
+
+
+@media screen and (width < 1100px){
+    .bd{
+       
+        margin: 0%;
+        background-size:cover;
+    
+    }
+    
+    .nv{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin:0px 00px;
+        flex: 50%;
+    
+
+    }
+    .container{
+        display: flex;
+        margin-left:0px;
+    }
+}
+@media screen and (950px <  width < 1300px){
+    .bd{
+       
+        margin: 0% ;
+        background-size:cover;
+        background-attachment:fixed ;
+    
+    }
+    
+    .nv{
+      
+        width: 40%;
+        margin:0px 250px;
+        flex: 50%;
+    
+
+    }
+    
+}
+
+@media screen and (width < 600px){
+    .bd{
+       
+        margin: 0% ;
+        background-size:cover;
+        background-attachment:fixed ;
+    }
+    
+    .nv{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin:0px;
+        flex: 50%;
+    
+
+    }
+    .container{
+        display: flex;
+        margin-left:0px;
+    }
+    #hh{
+        margin: left 0px;;
+        display: block;
+        flex: 50%;
+    }
+}
+
+.n{
+    color: rgb(242, 241, 241) ;
+
+    background-color: rgba(0, 0, 0, 0.586);
+    padding: 20px;
+    
+}
+.n1{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.nv2{
+    background-color: rgba(155, 169, 162, 0.637);
+    padding: 20px;
+    margin: auto;
+    border-radius: 800px;
+    min-height: auto;
+    max-width:500px;
+}
+.box{
+
+    width: 40%;
+    margin: auto;
+
+}
+.box #m ,  #m1 ,  #m2, #m4{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 10px;
+}
+#hh{
+    padding: 30px;
+  position: relative;
+    height: auto;
+    border-bottom: 20px black;
+    max-width: 100%;
+    margin:0px 00px;
+    text-align: center;
+}
+.f1{
+    display: block;
+    margin: auto;
+}
+#click{
+    border-radius: 30px;
+    padding: 10px;
+    background:white;
+    margin: auto;
+    text-decoration: none;
+    border: 1px solid;
+    width: 110%;
+    margin-top: 10px;
+}
