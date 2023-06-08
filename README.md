@@ -1,6 +1,7 @@
 # LOAN
 A loan calculator is a tool that helps individuals or businesses estimate the cost of a loan, including the monthly payment amount, total interest paid, and the total repayment amount. It allows users to input specific loan details, such as the loan amount, interest rate, loan term, and any additional fees or charges. Based on this information, the calculator performs calculations to provide an estimate of the loan repayment schedule.
 
+![Screenshot 2023-06-08 162430](https://github.com/MONISH-JODHA/LOAN/assets/104707700/3450390e-264f-4b9d-bf8b-05fd09a8999e)
 
 
 The key elements typically included in a loan calculator are:
@@ -29,3 +30,5 @@ Loan calculators are commonly found on financial websites or included as feature
 
 If there is any fiels empty, it hits the error message to fill all the details correctly
 ![image](https://github.com/MONISH-JODHA/LOAN/assets/104707700/f169dc63-1fbb-4c8b-a4cb-21e6bb842807)
+
+Fill the details and click whichever option u want to calculate.
