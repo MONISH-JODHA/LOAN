@@ -21,7 +21,8 @@
     
         <div class="nv2">
             <img src="claculator.png" id="img" >
-            <h1 id="hh">LOAN CALCULATOR</h1>
+            <h1 id="hh">LOAN METER</h1>
+            
             <form class="box" id="bin">
                 <label for name="m" >AMOUNT(Rs.)</label>
                 <input type="text" id="m" name="m" placeholder="in Rs:-">
@@ -35,15 +36,23 @@
                     <option value="Quaterly" id="opt2">Quaterly</option>
                     <option value="Yearly" id="opt3">Yearly</option>
                 </select>
-
-            
-                <button onclick="validate()" id="click">CALCULATE</button>  
+                <div class="cal">
+                <button type="button" onclick="myFunction() "  class="click" id="mip">MIP</button>
+                <button type="button" onclick="myFunction(), test() "  class="click" id="fd">FD</button>
+                <button type="button" onclick="myFunction(), test() "  class="click" id="rd">RD</button>
+                <button type="button" onclick="myFunction(), test() "  class="click" id="dd">DD</button>
+                 </div>
+                 <div>
+                    <p id="output">disycsgcisdugcblisducisudcisudcgsi7dfugsof8g<p>
+                 </div>
             </form>
             
         </div>
+        
 
     </div>
 
 <script src="show.js"></script>
+<script src="calculate.js"></script>
 </body>
 </html>

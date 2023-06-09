@@ -1,5 +1,6 @@
-const fm=document.querySelector(".box");
+const fm=document.getElementById("bin");
 fm.style.display="none";
+
 
 function myFunction(){
     
@@ -12,6 +13,7 @@ function myFunction(){
         fm.style.display="none";
     }
 }
+
 
 function validate(){
     const m=document.getElementById("m").value;

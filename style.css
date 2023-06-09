@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     
-   
+   font-family: 'Times New Roman', Times, serif;
     
     
 }
@@ -84,14 +84,15 @@ body{
     background: rgba(0, 0, 0, 0);
     border: none;
     color: aliceblue;
-    font-size:20px;
+   
    
 }
 .btn1{
     background:rgb(0, 0, 0);
     border: none;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 50px;
+    font-size: medium;
     
    
 }
@@ -134,17 +135,22 @@ body{
     display: block;
     margin: auto;
 }
-#click{
-    border-radius: 30px;
-    padding: 10px;
-    background:white;
-    margin: auto;
-    text-decoration: none;
-    border: 1px solid;
-    width: 110%;
-    margin-top: 10px;
+.cal{
+    display: flex;
+    flex-direction: column;
 }
-
+.click{
+   display: block;
+   margin: 10px 0px;
+   padding:10px;
+}
+#output{
+    word-wrap: break-word;
+    font-size: large;
+    font-weight: 300;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
 
 @media screen and (width < 1100px){
     .bd{
@@ -221,6 +227,12 @@ body{
        
     }
    .btn{
+    padding: 5px;
+    font-size: 12px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+   }
+   .btn1{
     padding: 5px;
     font-size: 12px;
     padding-top: 17px;
