@@ -1,5 +1,5 @@
 const fm=document.getElementById("bin");
-fm.style.display="none";
+
 
 
 function myFunction(){
