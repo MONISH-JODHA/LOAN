@@ -54,4 +54,3 @@ function test(){
     console.log("svsfv "+k);
    
 }
-yess 
